@@ -1,0 +1,13 @@
+scripts to run in sql server
+
+create schema appuser
+
+create table appuser.application_user (
+id int not null identity(1,1),
+Name varchar(255) not null,
+password varchar(255) not null,
+emaiId varchar(255) not null,
+country varchar(255)not null);
+
+
+a) copy the javax.servlet 3.0 ,sql server driver to buildpath and run it on server
